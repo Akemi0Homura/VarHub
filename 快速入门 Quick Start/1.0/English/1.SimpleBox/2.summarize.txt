@@ -1,0 +1,4 @@
+Simplebox is based on ConcurrentHashMap table for simple encapsulation.
+Simple to operate , and high concurrency performance , multi-threaded security , do not have to worry about hash conflicts .
+However, since adding data and modifying data share a common method, it is less secure for variable management.
+So if the amount of data is not too large, it is recommended to use this implementation class, but if it is related to web development, I do not really recommend it.

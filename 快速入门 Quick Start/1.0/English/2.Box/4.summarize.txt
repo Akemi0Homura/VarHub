@@ -1,0 +1,1 @@
+Boxes are suitable for use in any scenario and are my most recommended class to implement, although it comes with some threading risks, but trust me, it's worth it.

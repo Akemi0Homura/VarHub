@@ -1,0 +1,17 @@
+box's conditional judgment can make the data management security, but it has a big problem, that is, in the high concurrency under a certain danger, 
+especially in the additions, deletions and changes in the centralized processing together.
+
+This is because a large number of threads into the box internal conditional judgment, will compete with each other, and I for better high concurrency performance,
+did not go to do synchronized processing, because in the ConcurrentHashMap on the internal multi-threaded security measures, if I am outside in the do it will be a little redundant,
+appeared to be a thread-safety problem is usually a way to solve.
+
+If you are experiencing problems with multi-threaded environments, then follow the below method to try to solve it accordingly:
+1. Turn off strict mode
+2. Use synchronized
+3. Close the collection mode
+4. Use SimpleBox
+
+If it appears that you have to execute method #4 to solve the problem, or none of the above methods can solve the problem, 
+then please check your own code, because this is usually not a VarHub problem. For example, switch to the official java ConcurrentHashMap to operate.
+
+If you can determine that it's a VarHub issue, then please go to github and give the code that reproduces the bug.

@@ -1,0 +1,3 @@
+由于在ClassBox的每一个方法都有严格模式的传参，所以在ClassBox里strictModel方法已经无意义，因此它在源码中并没有做任何处理。
+
+而另一个方法setMode方法和Box是一模一样，这里不做赘述。

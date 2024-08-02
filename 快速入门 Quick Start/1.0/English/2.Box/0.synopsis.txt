@@ -1,0 +1,3 @@
+This implementation class is an implementation of the StockpilePlus interface, which upgrades the Stockpile interface to make data storage access more secure.
+The logic for using the box adheres to the collection pattern.
+And provide some settings, let you modify accordingly more in line with the use of the environment.

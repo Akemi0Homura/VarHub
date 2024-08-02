@@ -1,0 +1,3 @@
+The multithreading solution is exactly the same as in Box, so I won't go into that here either.
+
+But mention here that ClassBox's high concurrency performance will be a little worse, about 50ms up or down.

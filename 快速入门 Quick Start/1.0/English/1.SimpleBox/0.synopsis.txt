@@ -1,0 +1,7 @@
+The following tutorial was translated by deepl, if there are any mistakes or you have a better English tutorial, then you are welcome to find me on github!
+
+
+
+Simplebox is an implementation class that implements the Stockpile interface, which follows the logic of hash table operations.
+Simplebox allows you to store data and then call it out anywhere.
+And it uses the same logic as a variable, a variable name + data, and it can do different data types under the repeated variable name.

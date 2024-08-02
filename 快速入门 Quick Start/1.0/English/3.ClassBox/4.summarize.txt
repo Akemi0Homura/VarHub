@@ -1,0 +1,9 @@
+To summarize, which implementation class to choose between Box and ClassBox, choose ClassBox if you have a large amount of data, and vice versa for Box.
+
+
+
+See here, you've got all the operations of VarHub will learn, if you have any good ideas features or bugs or annotated tutorial errors, are welcome to github and I discuss together.
+
+
+
+The English tutorials are all translated by deepl, if you have more understandable English tutorials, then you are welcome to find me on github.
